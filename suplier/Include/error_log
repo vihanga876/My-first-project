@@ -1,0 +1,4 @@
+[28-Nov-2023 14:14:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nvtibad1/group4.nvtibaddegama.tech/suplier/Include/conection.php on line 7
+[28-Nov-2023 14:14:09 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/nvtibad1/group4.nvtibaddegama.tech/suplier/Include/conection.php on line 10
+[28-Nov-2023 14:14:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nvtibad1/group4.nvtibaddegama.tech/suplier/Include/conection.php on line 7
+[28-Nov-2023 14:14:33 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/nvtibad1/group4.nvtibaddegama.tech/suplier/Include/conection.php on line 10
