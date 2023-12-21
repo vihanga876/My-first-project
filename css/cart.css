@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+position: relative;
+}
+
+.table{
+    width: 80%;
+}
+
+
+
+table{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.801);
+    /* padding: 5px; */
+    border: 1px solid black;
+    border-radius: 50px;
+    
+}
+
+
+th,td{
+    border-inline: 1px solid black;
+}
+
+
+th{
+    font-size: 25px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    border-inline: none;
+    border-inline-start: 1px solid;
+    border-bottom: 1px solid black;
+   
+}
+
+th:first-child{
+        border-inline: none;
+}
+
+td{
+    font-size: 20px;
+    border-inline: none;
+     border-inline-start: 1px solid;
+    
+}
+
+td:first-child{
+        border-inline: none;
+       
+}
+
+.delete{
+    border-bottom: 1px solid;
+}
+
+.totalTable{
+    width: 100px;
+    border: 1px solid black;
+}
+
+.totalTableTd{
+    font-size: 25px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    /* border-inline: 2px solid black; */
+    /* border-inline-start: 1px solid; */
+    border-top: 1px solid black;
+    text-align: right;
+    padding-right: 25px;
+    /* border: none; */
+    /* border-inline-start: 1px solid; */
+}
+
+
+
+/* td{
+    width: 30%;
+} */
+
+.imgTd{
+    padding: 15px;
+    width: 10%;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+    height: 50px;
+}
+
+.buttons{
+    margin-top: 15px;
+    float: right;
+    width: 25%;
+}
+.buttons input[type=submit]{
+    width: 100%;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+
+.c-buyBtn{
+color: rgba(10, 105, 247, 0.848);
+}
+
+.c-deleteBtn{
+    color: rgb(235, 62, 62);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .table{
+        width: 80%;
+    }
+
+    table{
+    width: 50%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .main{
+        width: 75%;
+    }
+    .table{
+        width: 70%;
+    }
+
+table{
+    width: 50%;
+}
+
+
+}
+
+
+
